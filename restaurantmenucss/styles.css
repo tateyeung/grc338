@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    margin: 1.3em;
+    color: #2f2f2f;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+h3 {
+    margin-top: 2em;
+    margin-bottom: .5em;
+    letter-spacing: .03em;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    text-align: center
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+p.description {
+    margin: 0;
+    color: #555555;
+    line-height: 1.2em;
+}
+
+p.price {
+    margin-top: 0;
+    text-align: right;
+    color: #aaaaaa;
+}
