@@ -1,0 +1,123 @@
+:root {
+  --accent: #00695c;
+  --darkaccent: #003d33;
+  --lighttext: #37474f;
+  --text: #102027;
+}
+
+body {
+  font-family: 'IBM Plex Serif', serif;
+  color: var(--text);
+  margin: auto;
+  padding: 0 2.5em;
+  background-color: #11111;
+  max-width: 53em;
+}
+
+a {
+  color: var(--accent)
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+p {
+  margin-bottom: 1em;
+  line-height: 1.4em;
+}
+
+p.nospacing {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-bottom: .2em;
+  margin-top: 2em;
+  color: var(--darkaccent);
+}
+
+h2 {
+  font-family: 'IBM Plex Mono', sans-serif;
+  /* text-transform: uppercase; */
+  font-size: 1.2em;
+  margin-bottom: .2em;
+  margin-top: 1.5em;
+  color: var(--lighttext);
+  font-weight: 700;
+}
+
+h1 + h2 {
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+section {
+  margin-top: 3em;
+}
+
+section:last-child {
+  margin-bottom: 5em;
+}
+
+img {
+  width: 100%;
+}
+
+img.logo {
+    margin: 2em auto 0 auto;
+    display: block;
+}
+
+h1.cta {
+  margin-bottom: 1.5em;
+}
+
+h2.cta {
+  background-color: var(--darkaccent);
+  color: white;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.cta a {
+  color: white;
+}
+
+ul.first {
+  margin-top: 0;
+}
+
+ul.nav {
+  list-style: none;
+  padding: 0;
+  font-size: 1.5em;
+  font-family: 'IBM Plex Mono', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: .2em;
+  margin-top: 1.5em;
+  color: #333333;
+  position: relative;
+  text-align: center;
+
+}
+
+ul.nav > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+ul.nav > li:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 30em)  {
+  body {
+    padding: 0 1em;
+  }
+}
